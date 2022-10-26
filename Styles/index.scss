@@ -1,0 +1,244 @@
+@import "header";
+
+@import "footer";
+
+body {
+    display: inline-block;
+    width: 100%;
+    max-width: 1600px;
+}
+
+.Title-container {
+    padding: 40px;
+    margin-left: 45px;
+}
+
+.Title-text {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+    letter-spacing: -0.423077px;
+    color: #4A4FF2;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Main-info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.Main-text {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 150% */
+    color: #111111;
+}
+
+.Quote {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 50px;
+    padding-right: 70px;
+}
+
+.Quote-text {
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.Image-1 {
+    padding: 40px;
+    width: 1320px;
+    height: auto;
+}
+
+.Part-2 {
+    display: flex;
+}
+
+.Info-2 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    /* or 136% */
+    color: #111111;
+    padding-left: 40px;
+    margin-left: 45px;
+}
+
+.Service {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 4px;
+    /* identical to box height */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.Grid-container {
+    display: grid;
+    grid-template-columns: 10 1fr;
+    grid-template-rows: 10 1fr;
+    gap: 20px;
+}
+
+.Column-1 {
+grid-column: 5/6;
+grid-row: 1;
+}
+
+
+.Part-3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Part-3-title {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+    color: #111111;
+    margin-top: 150px;
+    margin-left: 90px;
+}
+
+.Box-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Part-3-title2 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+    margin-left: 350px;
+    margin-top: 150px;
+}
+
+.Box-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Part-3-title3 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    color: #111111;
+    display: block;
+    margin-top: 400px;
+    margin-left: -130px;
+}
+
+.Part-3-title4 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #111111;
+}
+
+.Part-3-title5 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #111111;
+}
+
+.Part-3-info {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.Box-3 {}
+
+.Box-4 {}
+
+.Year-box {
+    display: flex;
+}
+
+.Year-box2 {}
+
+.Year1 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: right;
+    color: #111111;
+    margin-top: 151px;
+    margin-left: 120px;
+}
+
+.Year2 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: right;
+    color: #111111;
+}
+
+.Part-4 {
+    display: flex;
+}
+
+.Box-5 {}
+
+.Box-6 {
+    display: flex;
+}
+
+.Box-7 {}
+
+.Box-8 {}
+
+.Year-box3 {}
+
+.Year-box4 {}

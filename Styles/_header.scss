@@ -1,0 +1,31 @@
+.Heading {
+    padding: 0;
+    max-width: 1600px;
+}
+
+.Logo {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.Button-text {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: -0.346154px;
+    color: #111111;
+    text-decoration: none;
+}
+
+.Button {
+    width: 100%;
+    max-width: 1600px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

@@ -1,15 +1,15 @@
+body {
+    display: inline-block;
+}
+
 @import "header";
 
 @import "footer";
 
-body {
-    display: inline-block;
-    width: 100%;
-    max-width: 1600px;
-}
+$Maincolor: #111111;
 
 .Title-container {
-    padding: 40px;
+    padding-left: 40px;
     margin-left: 45px;
 }
 
@@ -30,6 +30,16 @@ body {
     align-items: flex-start;
 }
 
+.Main-text-purple {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 150% */
+    color: #4A4FF2;
+}
+
 .Main-text {
     font-family: 'Mulish', sans-serif;
     font-style: normal;
@@ -37,7 +47,7 @@ body {
     font-size: 40px;
     line-height: 60px;
     /* or 150% */
-    color: #111111;
+    color: $Maincolor;
 }
 
 .Quote {
@@ -46,6 +56,7 @@ body {
     justify-content: flex-end;
     margin-right: 50px;
     padding-right: 70px;
+    padding-bottom: 70px;
 }
 
 .Quote-text {
@@ -55,15 +66,14 @@ body {
     font-size: 18px;
     line-height: 23px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
     mix-blend-mode: normal;
     opacity: 0.6;
 }
 
 .Image-1 {
-    padding: 40px;
-    width: 1320px;
-    height: auto;
+    padding-left: 40px;
+    padding-bottom: 3vw;
 }
 
 .Part-2 {
@@ -77,7 +87,7 @@ body {
     font-size: 28px;
     line-height: 38px;
     /* or 136% */
-    color: #111111;
+    color: $Maincolor;
     padding-left: 40px;
     margin-left: 45px;
 }
@@ -89,27 +99,108 @@ body {
     font-size: 18px;
     line-height: 4px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
     mix-blend-mode: normal;
     opacity: 0.6;
+    line-height: 20px;
 }
 
 .Grid-container {
     display: grid;
-    grid-template-columns: 10 1fr;
-    grid-template-rows: 10 1fr;
-    gap: 20px;
+    grid-template-columns: 14 1fr;
+    grid-template-rows: 14 1fr;
+
+    .Column-1 {
+        grid-column: 3;
+        margin-top: 10px;
+    }
+
+    .Column-2 {
+        grid-column: 5;
+        margin-top: 10px;
+    }
 }
 
-.Column-1 {
-grid-column: 5/6;
-grid-row: 1;
+.Grid-container-1 {
+    display: grid;
+    grid-template-columns: 14 1fr;
+    grid-template-rows: 14 1fr;
+    padding-top: 8vw;
+
+    .Box {
+        grid-row: 1;
+        grid-column: 1;
+        padding-left: 6vw;
+    }
+
+    .Box-1 {
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    .Box-2 {
+        grid-row: 3;
+        grid-column: 3;
+    }
+
+    .Box-3 {
+        grid-row: 1;
+        grid-column: 5;
+    }
+
+    .Box-4 {
+        grid-row: 3;
+        grid-column: 5;
+    }
+
+    .Box-5 {
+        grid-row: 4;
+        padding-left: 6vw;
+    }
+
+    .Box-6 {
+        grid-row: 4;
+        grid-column: 3;
+    }
+
+    .Box-7 {
+        grid-row: 5/6;
+        grid-column: 3;
+    }
+
+    .Box-8 {
+        grid-row: 4;
+        grid-column: 5;
+    }
+
+    .Box-9 {
+        grid-row: 5;
+        grid-column: 5;
+    }
+
+    .Year-box1 {
+        grid-row: 1;
+        grid-column: 6;
+    }
+
+    .Year-box2 {
+        grid-row: 3;
+        grid-column: 6;
+    }
+
+    .Year-box3 {
+        grid-row: 4;
+        grid-column: 6;
+    }
+
+    .Year-box4 {
+        grid-row: 5;
+        grid-column: 6;
+    }
 }
 
-
-.Part-3 {
-    display: flex;
-    justify-content: flex-start;
+.Line {
+    margin-left: 7vw;
 }
 
 .Part-3-title {
@@ -119,14 +210,7 @@ grid-row: 1;
     font-size: 22px;
     line-height: 28px;
     /* identical to box height */
-    color: #111111;
-    margin-top: 150px;
-    margin-left: 90px;
-}
-
-.Box-1 {
-    display: flex;
-    flex-direction: row;
+    color: $Maincolor;
 }
 
 .Part-3-title2 {
@@ -136,14 +220,7 @@ grid-row: 1;
     font-size: 18px;
     line-height: 23px;
     /* identical to box height */
-    color: #111111;
-    margin-left: 350px;
-    margin-top: 150px;
-}
-
-.Box-2 {
-    display: flex;
-    justify-content: flex-start;
+    color: $Maincolor;
 }
 
 .Part-3-title3 {
@@ -153,10 +230,8 @@ grid-row: 1;
     font-size: 18px;
     line-height: 23px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
     display: block;
-    margin-top: 400px;
-    margin-left: -130px;
 }
 
 .Part-3-title4 {
@@ -166,7 +241,7 @@ grid-row: 1;
     font-size: 16px;
     line-height: 20px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
 }
 
 .Part-3-title5 {
@@ -176,7 +251,7 @@ grid-row: 1;
     font-size: 16px;
     line-height: 20px;
     /* identical to box height */
-    color: #111111;
+    color: $Maincolor;
 }
 
 .Part-3-info {
@@ -186,20 +261,14 @@ grid-row: 1;
     font-size: 16px;
     line-height: 26px;
     /* or 162% */
-    color: #111111;
+    color: $Maincolor;
     mix-blend-mode: normal;
     opacity: 0.6;
 }
 
-.Box-3 {}
-
-.Box-4 {}
-
 .Year-box {
     display: flex;
 }
-
-.Year-box2 {}
 
 .Year1 {
     font-family: 'Mulish', sans-serif;
@@ -209,9 +278,7 @@ grid-row: 1;
     line-height: 20px;
     /* identical to box height */
     text-align: right;
-    color: #111111;
-    margin-top: 151px;
-    margin-left: 120px;
+    color: $Maincolor;
 }
 
 .Year2 {
@@ -222,23 +289,5 @@ grid-row: 1;
     line-height: 20px;
     /* identical to box height */
     text-align: right;
-    color: #111111;
+    color: $Maincolor;
 }
-
-.Part-4 {
-    display: flex;
-}
-
-.Box-5 {}
-
-.Box-6 {
-    display: flex;
-}
-
-.Box-7 {}
-
-.Box-8 {}
-
-.Year-box3 {}
-
-.Year-box4 {}
